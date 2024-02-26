@@ -1,0 +1,48 @@
+layer 0: 0 1 2 3 4 5 6 7 8 
+layer 1: 9 10 11 
+layer 2: 12 
+digraph G {
+	0 -> 11[label="1.34082"]
+	0 -> 10[label="-0.223228"]
+	0 -> 9[label="-0.169643"]
+	1 -> 11[label="1.18517"]
+	1 -> 10[label="0.194131"]
+	1 -> 9[label="-0.0402987"]
+	2 -> 11[label="-0.156924"]
+	2 -> 10[label="0.989135"]
+	2 -> 9[label="0.565788"]
+	3 -> 11[label="-0.46132"]
+	3 -> 10[label="0.642295"]
+	3 -> 9[label="0.762242"]
+	4 -> 11[label="0.633375"]
+	4 -> 10[label="0.297137"]
+	4 -> 9[label="-0.268914"]
+	5 -> 11[label="0.549267"]
+	5 -> 10[label="-1.35402"]
+	5 -> 9[label="-0.279643"]
+	6 -> 11[label="-1.03429"]
+	6 -> 10[label="-1.19832"]
+	6 -> 9[label="0.0833546"]
+	7 -> 11[label="-0.917686"]
+	7 -> 10[label="-0.0819241"]
+	7 -> 9[label="0.740756"]
+	8 -> 11[label="-0.957671"]
+	8 -> 10[label="-0.0884205"]
+	8 -> 9[label="0.520281"]
+	9 -> 12[label="0.821195"]
+	10 -> 12[label="-0.344489"]
+	11 -> 12[label="-1.52925"]
+}
+node 0: (z=0	, a=0	, bias=0	, activation=identity)
+node 1: (z=0	, a=0	, bias=0	, activation=identity)
+node 2: (z=0	, a=0	, bias=0	, activation=identity)
+node 3: (z=0	, a=0	, bias=0	, activation=identity)
+node 4: (z=0	, a=0	, bias=0	, activation=identity)
+node 5: (z=0	, a=0	, bias=0	, activation=identity)
+node 6: (z=0	, a=0	, bias=0	, activation=identity)
+node 7: (z=0	, a=0	, bias=0	, activation=identity)
+node 8: (z=0	, a=0	, bias=0	, activation=identity)
+node 9: (z=0	, a=0	, bias=-1.07938	, activation=ReLU)
+node 10: (z=0	, a=0	, bias=0.233934	, activation=ReLU)
+node 11: (z=0	, a=0	, bias=-0.563434	, activation=ReLU)
+node 12: (z=0	, a=0.5	, bias=-1.58221	, activation=sigmoid)

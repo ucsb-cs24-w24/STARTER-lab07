@@ -1,0 +1,6 @@
+3 6         #number of layers, number of nodes
+2 identity  #nodes in layer 0 (input)
+3 sigmoid   #nodes in layer 1 and applies ReLU activation
+1 sigmoid   #nodes in layer 2 (output) and applies sigmoid activation
+0           #number of weights to load
+0           #number of biases to load
