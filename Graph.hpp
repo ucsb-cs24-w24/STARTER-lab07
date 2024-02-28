@@ -63,7 +63,7 @@ struct Connection {
         int dest;
         // Weight between the source of the directed edge and destination node.
         double weight;
-        // THe accumulated derivative for this weight
+        // The accumulated derivative for this weight
         double delta;
 
 };
@@ -106,7 +106,7 @@ class Graph {
         AdjList adjacencyList;
 
         // nodes serves as the canonical (the most trustworthy) version of a node in the graph. Do not rely on anything else 
-        // to be an accurate representation of this node. Use each id. 
+        // to be an accurate representation of this node. Use node id to index into this vector. 
         std::vector<NodeInfo*> nodes;
 
 
