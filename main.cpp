@@ -12,7 +12,7 @@ int main(int argc, char* argv[]) {
     // to play around with this file and explore the neural net. 
     // diabetes1.init contains a pretrained model. 
     
-    testTrain("./data/diabetes1.init", "./data/diabetes_train.csv", "./data/diabetes_test.csv");
+    testTrain("./models/diabetes.init", "./data/diabetes_train.csv", "./data/diabetes_test.csv");
 
     return 0;
 }
