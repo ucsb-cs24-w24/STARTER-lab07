@@ -122,7 +122,7 @@ bool NeuralNetwork::update() {
     // use the formulas for each update
     // bias update: bias = bias - (learningRate * delta)
     // weight update: weight = weight - (learningRate * delta)
-
+    // reset the delta term for each node and connection to zero.
     
     flush();
     return true;
@@ -244,7 +244,7 @@ void NeuralNetwork::loadNetwork(istream& in) {
 
     in >> biasModifications; getline(in , junk);
 
-    // laod biases by updating node info
+    // load biases by updating node info
     for (int i = 0; i < biasModifications; i++) {
         in >> v; in >> b; getline(in, junk);
         NodeInfo* thisNode = getNode(v);
